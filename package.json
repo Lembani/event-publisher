@@ -1,0 +1,20 @@
+{
+  "name": "event-publisher",
+  "version": "1.0.0",
+  "description": "An implementation of the Bus Network where objects can \"subscribe\" to receive certain specific \"events”. An event is \"published\" to the event bus and it is propagated to any subscriber. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lembani/event-publisher.git"
+  },
+  "author": "lembani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lembani/event-publisher/issues"
+  },
+  "homepage": "https://github.com/Lembani/event-publisher#readme"
+}
